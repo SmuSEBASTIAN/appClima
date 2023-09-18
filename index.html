@@ -12,14 +12,14 @@
         <h1 class="text-center text-muted ">App Clima</h1>
         <form class="text-center text-mute my-2">
             <label for="Buscar" class="p-2 ">Ingresa la ciudad para ver el clima <label>
-            <input type="text" name="ciudad" id="Buscar" class="form-control p-2">
+            <input type="text" name="ciudad" id="Buscar" class="form-control p-2" required>
             <BUtton id="Btn">Buscar</BUtton>
         </form>
         <div class="card shadow rounded my-2">
             <img id="imagen" src="img/world.gif" alt="400x300" srcset="" class=" card-img-top" height="400" width="300">
             <div class="bg-light mx-auto text-center">
             </div>
-            <div class=" text-muted text-uppercase text-center">
+            <div class=" text-muted text-uppercase text-center" id="Caja">
                 <h5 class="my-3" id="Ciudad">Nombre de la ciudad</h5>
                 <div class="my-3" id="Clima">Condicion climatica</div>
                 <div class="display-4 my-4">
