@@ -6,3 +6,6 @@ fetch("https://api.openweathermap.org/data/2.5/weather?q=Tucuman&units=metric&ap
     .catch(error => {
         console.error("Error:", error);
     });
+
+
+    
